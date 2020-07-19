@@ -1,0 +1,24 @@
+body {
+    opacity: 1;
+    transition: 2s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+.size_image {
+    width: 25%;
+    height: 25%;
+}
+
+.logo_left_corner {
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.box_shadow_grey {
+    box-shadow: 3px 5px lightgrey;
+}
